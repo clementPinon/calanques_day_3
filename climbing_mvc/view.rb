@@ -23,7 +23,9 @@ class View
   def list_climbing_routes(climbing_routes)
     # puts climbing_routes
     climbing_routes.each do |climbing_route|
-      puts "name: #{climbing_route.name} - level: #{climbing_route.level} - done: #{climbing_route.done}"
+      marker = '[ ]'
+      marker = '[x]' if climbing_route.done
+      puts "name: #{climbing_route.name} - level: #{climbing_route.level} - done: #{marker}"
     end
   end
 end
