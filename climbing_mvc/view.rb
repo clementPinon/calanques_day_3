@@ -20,6 +20,11 @@ class View
     return gets.chomp
   end
 
+  # def delete_climbing_route
+  #   puts  "what is the name of the climbing route you want to delete?"
+  #   return gets.chomp
+  # end
+
   def list_climbing_routes(climbing_routes)
     # puts climbing_routes
     climbing_routes.each do |climbing_route|

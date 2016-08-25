@@ -22,7 +22,8 @@ class Router
       puts "Enter 1 to list all the climbing routes"
       puts "Enter 2 to add a climbing route"
       puts "Enter 3 to add a climbing route you've done"
-      puts "Enter 4 to exit the program"
+      puts "Enter 4 to delete a climbing route you've done"
+      puts "Enter 5 to exit the program"
       puts '-----------------------------------------------'
       puts '-----------------------------------------------'
 

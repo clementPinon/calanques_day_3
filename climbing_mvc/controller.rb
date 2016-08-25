@@ -42,6 +42,11 @@ class Controller
     @view.list_climbing_routes(@climbing_routes)
   end
 
+  # def delete
+  #   name = @view.delete_climbing_route
+  #   @climbing_routes.delete_if {@climbing_routes.name == name}
+  # end
+
   private
   def find(name)
     @climbing_routes.each do |cl|
